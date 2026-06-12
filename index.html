@@ -6,6 +6,10 @@
     <title>CBF</title>
     <link rel="shortcut icon" href="imagem/cbf-confederacao-brasileira-de-futebol-logo-png_seeklogo-274350.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
 
 </head>
 <body>
@@ -13,49 +17,75 @@
             <h1>Seleção Brasileira na Copa</h1>
             <br>
 </header>
-
+        
 <main>
             <h2><fieldset>Convocados</fieldset></h2>
-    <br>
-            <img width="500" src="https://www.mercadoeeventos.com.br/wp-content/uploads/2026/06/selecao-brasileira-copa-do-mundo-uniforme-traje-viagem-ricardo-almeida-2.webp" alt="Todos os Convocados">
-    <br>
+<br>
+            <img id="img" width="500" src="https://www.mercadoeeventos.com.br/wp-content/uploads/2026/06/selecao-brasileira-copa-do-mundo-uniforme-traje-viagem-ricardo-almeida-2.webp" alt="Todos os Convocados">
+<br>
     <ol>
-             <img width="200" src="imagem/neymar-em-seu-ultimo-gol-marcado-pelo-brasil-em-setembro-de-2023-contra-a-bolivia-1778888488879_v2_450x450.jpg" alt="Neymar">
+        <div>
+             <img width="300" src="imagem/neymar-em-seu-ultimo-gol-marcado-pelo-brasil-em-setembro-de-2023-contra-a-bolivia-1778888488879_v2_450x450.jpg" alt="Neymar">
             <li><h3>Neymar</h3></li>
-            <h3>Santos fc</h3>
             <h3>Atacante</h3>
+            <h3>Santos fc</h3>
+        </div>
 
-    <br>
-            <img width="200" src="imagem/vinicius-junior-em-acao-pela-selecao-brasileira-1670459798306_v2_450x450.jpg" alt="Vini Jr">
+<br>
+        <div>
+            <img width="300" src="imagem/vinicius-junior-em-acao-pela-selecao-brasileira-1670459798306_v2_450x450.jpg" alt="Vini Jr">
             <li><h3>Vini Jr</h3></li>
             <h3>Ponta esquerda</h3>
             <h3>Real Madrid</h3>
-    <br>
-              <img width="200" src="imagem/gabriel-martinelli-atacante-da-selecao-brasileira-comemora-gol-marcado-em-amistoso-contra-a-croacia-em-orlando-eua-1775695606855_v2_450x450.jpg" alt="">
+        </div>
+<br>
+        <div>
+              <img width="300" src="imagem/gabriel-martinelli-atacante-da-selecao-brasileira-comemora-gol-marcado-em-amistoso-contra-a-croacia-em-orlando-eua-1775695606855_v2_450x450.jpg" alt="">
             <li><h3>Gabriel Martinelli</h3></li>
             <h3>Ponta esquerda</h3>
-    <br>     
-            <img width="200" src="imagem/alisson-goleiro-da-selecao-brasileira-1581460822463_v2_450x600.jpg" alt="">
+            <h3>Arsenal FC</h3>
+        </div>
+<br>
+        <div>
+            <img width="300" src="imagem/alisson-goleiro-da-selecao-brasileira-1581460822463_v2_450x600.jpg" alt="">
             <li><h3>Alisson</h3></li>
-    <br>
-            <img width="200" src="imagem/luiz henrique.jpg" alt="">
+            <h3>Goleiro</h3>
+            <h3>Liverpool FC</h3>
+        </div>
+<br>
+        <div>
+            <img width="300" src="imagem/luiz henrique.jpg" alt="">
             <li><h3>Luiz Henrique</h3></li>
-            
+            <h3>Ponta direita</h3>
+            <h3>Zenit FC</h3>
+        </div>    
     </ol>
-    <br>
-    
+<br>
             <h2><fieldset>Agendas de Jogos</fieldset></h2>
     
-    <br>
-            <img width="500" src="https://pbs.twimg.com/media/G7bbPkeXwAEkHwt.jpg" alt="">
-    <br>
+<br>
+            <img id="img" width="500" src="https://pbs.twimg.com/media/G7bbPkeXwAEkHwt.jpg" alt="">
+<br>
 
-            <h2><fieldset>Formulário de apoio</fieldset></h2>
-            <form action="enviar.php" method="POST">Preencha o Formulário</form>
-            <input type="text" placeholder="Digite seu nome">
-            <input type="email" placeholder="seu@email.com">
-            <input type="password" placeholder="Digite sua senha">
-            <input type="submit" value="Enviar Dados">
+<h3>
+        
+        <form id="Formulario de Apoio">
+        <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required></div>
+
+        <div class="form-group">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" required>
+        </div>
+        <div class="form-group">
+        <label for="duvida">Como podemos ajudar?</label>
+        <textarea id="duvida" rows="4" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+        </form>
+
+</h3>
 
 </main>
 
