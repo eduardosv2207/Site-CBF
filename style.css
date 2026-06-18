@@ -4,20 +4,13 @@
 body
 {
     background: linear-gradient(45deg, #00e1ff, #5cc417, #e1fa00);
-    
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
 }
 div{
-    width: 300px;
-    height: px;
-    max-width: 1200px;
-    background: linear-gradient(45deg, #c8ff00, #46a805, #1f33e7);
-    border-radius: 10px; 
-    margin: 0 auto;
-    padding: 20px; 
+
 }
 h3{
     text-align: center;
@@ -40,4 +33,55 @@ h2{
     display: block;
     margin: auto;
     width: 75%;
+}
+.card{
+    text-align: center;
+    width: 300px;
+    height: px;
+    max-width: 1200px;
+    background: linear-gradient(45deg, #c8ff00, #46a805, #1f33e7);
+    border-radius: 10px; 
+    margin: 0 auto;
+    padding: 20px; 
+}
+
+
+#ConvocadosCopa{
+    display: flex;
+    justify-content: center;
+
+}
+
+.ImagensJogador{
+    width: 190px;
+}
+
+#img{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+     background: linear-gradient(45deg, #c8ff00, #46a805, #1f33e7);
+}
+
+.form-group{
+    text-align: center;
+    width: 300px;
+    height: px;
+    max-width: 840px;
+    background: linear-gradient(45deg, #c8ff00, #46a805, #1f33e7);
+
+}
+#FormulariodeApoio{
+    text-align: center;
+    width: 300px;
+    height: px;
+    max-width: 840px;
+    background: linear-gradient(45deg, #c8ff00, #46a805, #1f33e7);
+    border-radius: 10px; 
+    margin: 0 auto;
+    padding: 10px; 
+    
 }
